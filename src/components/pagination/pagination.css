@@ -1,0 +1,39 @@
+.wrapper {
+    margin-bottom: 88px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pagi-button {
+    border: none;
+    outline: none;
+    background: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 0;
+}
+
+.arrow-back {
+    position: relative;
+    margin-left: 20px;
+}
+
+.arrow-back::after {
+    position: absolute;
+    left: -20%;
+    content: url(/static/arrow_back.svg);
+}
+
+.arrow-next {
+    position: relative;
+    margin-right: 20px;
+}
+
+.arrow-next::before {
+    position: absolute;
+    left: 103%;
+    content: url(/static/arrow_next.svg);
+}
